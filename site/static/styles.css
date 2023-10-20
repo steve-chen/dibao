@@ -1,0 +1,110 @@
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+}
+
+li {
+        float: left;
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+        background-color: #111;
+
+}
+
+.title {
+        font-family: Arial, monospace;
+        font-style: oblique;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 60px;
+
+}
+
+img {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 5px;
+        width: 400px;
+}
+
+.contractor {
+        font-family: Arial, monospace;
+        font-style: italic;
+        font-size: 15px;
+        margin: auto;
+        width: 50%;
+        border: 3px solid red;
+        padding: 10px;
+}
+
+.date {
+        font: italic small-caps bold 24px/40px Georgia, serif;
+        text-align: center;
+        margin-top: 10px;
+}
+
+.chat-container {
+        max-width: 600px;
+        margin: 20px auto;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.chat {
+        margin-bottom: 20px;
+}
+
+.timestamp {
+        font-weight: bold;
+        font-family: serif;
+        display: block;
+        padding-bottom: 2px;
+        padding-top: 5px;
+}
+
+.chat.steve .chat-message {
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 15px;
+        padding: 10px;
+        display: inline-block;
+}
+
+.chat.kimberley .chat-message {
+        background-color: #007b7f;
+        color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        display: inline-block;
+}
+
+.chat.huang .chat-message {
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        padding: 10px;
+        display: inline-block;
+}
+
